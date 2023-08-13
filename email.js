@@ -37,7 +37,7 @@ app.get('/email', function (req, res) {
       console.log('Email sent: ' + info.response);
     }
   });
-  res.send('Simple Example of routes!');
+  res.send('Email send successfully to ' +email+ ' !');
 })
 
 
