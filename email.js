@@ -7,12 +7,6 @@ var transporter = nodemailer.createTransport({
     pass: 'hzohddrgimjjbqlz'
   }
 });
-
-
-
-
-
-
 var express = require('express')
 var app = express()
 
